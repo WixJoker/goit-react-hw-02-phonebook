@@ -10,6 +10,7 @@ export default class ContactForm extends Component {
 	static propTypes = {
 		onSubmit: PropTypes.func.isRequired,
 	}
+	
 	state = {
 		name: '',
 		number: '',
